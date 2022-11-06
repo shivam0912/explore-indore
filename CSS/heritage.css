@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*This is reset*/
+body {
+    background-image: url(..//Images/bcc.jpg);
+    background-size: contain;
+    background-position-y: 180px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #4597c2;
+
+    height: 60px;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: #fff;
+    display: block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: #00ABB3;
+    background-color: #ffff;
+}
+
+h1 {
+    font-size: 5rem;
+
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #000000b0;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.card {
+    background: #4597c2;
+    width: 320px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+
+
+}
+
+.card-image {
+    background-color: #fff;
+    height: 220px;
+    margin-bottom: 15px;
+
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.place-1 {background-image: url(https://www.holidify.com/images/bgImages/INDORE.jpg);}
+.place-2 {background-image: url(https://www.holidify.com/images/cmsuploads/compressed/shutterstock_430388851_20190920100607.jpg);}
+.place-3 {background-image: url(https://www.holidify.com/images/cmsuploads/compressed/Patalpani_Waterfall_20180807213839.jpg);}
+.place-4 {background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3f/02/19/central-museum-indore.jpg?w=900&h=-1&s=1);}
+.place-5 {background-image: url(https://www.holidify.com/images/cmsuploads/compressed/Forests_of_MP_20180517183417.jpeg);}
+.place-6{background-image: url(https://www.holidify.com/images/cmsuploads/compressed/15155968280_5eea887571_z_20190208105130.jpg);}
+.place-7{background-image: url(https://www.holidify.com/images/cmsuploads/compressed/28517837303_fcb47d9b3d_b_20180807220926.jpg);}
+.place-8{background-image: url(https://www.holidify.com/images/cmsuploads/compressed/799px-Janapavkuti_20201210073208.jpg);}
+.place-9{background-image: url(https://www.ftd.travel/upload/attraction_image/thumbs/2012-11-04-01-40-52nehru-park-indore.jpg);}
+.place-10{background-image:url(https://www.holidify.com/images/cmsuploads/compressed/download_20180517181815_20181003150743.jpeg) ;}
+.place-11{background-image: url(https://www.holidify.com/images/cmsuploads/compressed/4792025927_b56017a194_z_20190329102146_20190329102206.jpg);}
+.place-12{background-image: url(https://www.holidify.com/images/cmsuploads/compressed/Image_0217_%2528Indore%2529_20190116141326.png);}
+.place-13{background-image: url(https://www.holidify.com/images/cmsuploads/compressed/Kanthanpara_waterfalls_20180517182005_20181003154426.JPG);}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.card a {
+    background-color: rgba(240, 7, 7, 0.927);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 50px;
+    display: block;
+    text-decoration: none;
+
+}

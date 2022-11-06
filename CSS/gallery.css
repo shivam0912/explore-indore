@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*This is reset*/
+body {
+    background-image: url(..//Images/bcc.jpg);
+    background-size: contain;
+    background-position-y: 180px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #4597c2;
+
+    height: 60px;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: #fff;
+    display: block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: #00ABB3;
+    background-color: #ffff;
+}
+
+h1 {
+    font-size: 5rem;
+
+}
+
+.gallery {
+    background-color: #000000b0;
+    padding: 4%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+
+}
+
+.gallery img {
+    
+    width: 320px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
