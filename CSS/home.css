@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*This is reset*/
+body {
+    background-image: url(..//Images/bcc.jpg);
+    background-size: contain;
+    background-position-y: 180px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #4597c2;
+    height: 60px;
+
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: #fff;
+    display: block;
+    padding: 4px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: #00ABB3;
+    background-color: #ffff;
+}
+
+h1 {
+    font-size: 5rem;
+
+}
+.about h2{
+    color: #000000;
+}
+.about {
+    background-color: #4597c2;
+    
+    text-align: justify;
+    padding: 16px 20px;
+    color: #ffff;
+    font-size: 1.2rem;
+    margin-top: 550px;
+
+}
+
+#box {
+    background-color: #00000041;
+    height: 50%;
+    padding: 4%;
+    margin: 2%;
+    color: white;
+    
+}
+
+/*Heritage Pages*/
+.container {
+
+    padding: 10px;
+    background: #000000;
+    color: #fff;
+
+}
+
+.container img {
+
+    width: 700px;
+    margin-left: 25%;
+
+    border-radius: 8px;
+}
+
+.container h1 {
+    padding: 10px;
+    font-size: 3.8rem;
+    color: #4597c2;
+    padding: 15px;
+}
+
+.container h2 {
+    bottom: 10px;
+    padding: 20px;
+    font-size: 2.2rem;
+    color: #4597c2;
+}
+
+.container p {
+    padding: 20px;
+    word-spacing: 3px;
+}
